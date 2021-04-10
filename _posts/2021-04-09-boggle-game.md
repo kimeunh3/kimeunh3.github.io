@@ -1,5 +1,5 @@
 ---
-title: "보글 게임 (문제 ID: BOGGLE, 난이도: 하)"
+title: "보글 게임 (문제 ID: BOGGLE, 난이도: 하) Python 풀이"
 excerpt_separator: <!--more-->
 categories: 
     - "Problem Solving"
@@ -21,3 +21,46 @@ tags:
 보글 게임판과 알고 있는 단어들의 목록이 주어질 때, 보글 게임판에서 각 단어를 찾을 수 있는지 여부를 출력하는 프로그램을 작성하세요.
 
 > **Note:** 지금부터 작성하는 솔루션은 재귀함수와 완전탐색만을 사용하여 풀은 솔루션입니다.
+
+```python
+board = [["U", "R", "L", "P", "M"], 
+        ["X", "P", "R", "E", "T"], 
+        ["G", "I", "A", "E", "T"], 
+        ["X", "T", "N", "Z", "Y"], 
+        ["X", "O", "Q", "R", "S"]]
+
+# 상하좌우 / 대각선으로 움직이는 방향을 저장
+dx = [-1, -1, -1, 1, 1, 1, 0, 0]
+dy = [-1, 0, 1, -1, 0, 1, -1, 1]
+
+# 시작 위치가 범위 내에 있는지 확인하는 함수
+def isRange(y, x):
+    if y < 0 or y >= len(board):
+        return False
+    if x < 0 or x >= len(board[0]):
+        return False
+    return True
+
+def hasWord(y, x, word):
+    # 시작 위치가 범위 내에 없다면 무조건 실패
+    if not isRange(y, x):
+        return False
+    # 첫 글자가 일치하지 않으면 무조건 실패
+    if board[y][x] != word[0]:
+        return False
+    # 단어 길이가 1이면 성공
+    if len(word) == 1:
+        return True
+    # 인접한 8칸을 검사
+    for i in range(8):
+        nextX, nextY = x + dx[i], y + dy[i]
+        # 위의 기저사례에서 다음 칸이 범위 내에 있는지, 
+        # 첫 글자가 일치하는지 확인하므로 바로 재귀호출
+        if hasWord(nextY, nextX, word[1:]):
+            return True
+    return False
+    
+print(hasWord(1, 1, "PRETTY"))
+print(hasWord(2, 0, "GIRL"))
+print(hasWord(1, 2, "REPEAT"))
+```
