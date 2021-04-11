@@ -5,7 +5,7 @@ categories:
     - "Problem Solving"
 tags: 
     - "recursion"
-    - "exhaustive search"
+    - "brute force"
 ---
 
 
