@@ -19,21 +19,16 @@ padding: 5px;
 * NAME : Eunhye Kim
 
 ## Education
-* Michigan State University, East Lansing, MI
-* MAJOR : Computer Science and Engineering
-* MINOR : Japanese
-
-## Career & Activities
- - Undergraduate resercher at Embedded System LAB (2018.06 ~ 2020.12)
- - LikeLion 7th @SCH (2019.03 ~ 2019.12)
+*Michigan State University, East Lansing, MI, USA*  
+ * B.S. Major in Computer Science and Engineering
+    * Minor in Japanese 
 
 ## Current Interest
- * Bigdata
- * Android Applicaiton 
- * Web Developmetn
- * Internet of Things
+ * Machine Learning
+ * Data Science
+ * Web Development
 
 ## Contact
- * Email : zlone1208@gmail.com
- * Git : [https://github.com/Hyeonjiwon](https://github.com/Hyeonjiwon)
- * Blog : [https://hyeonjiwon.github.io/](https://hyeonjiwon.github.io/)
+ * Email : [eunhyekim1223@gmail.com](mailto:eunhyekim1223@gmail.com)
+ * Git : [https://github.com/kimeunh3](https://github.com/kimeunh3)
+ * Blog : [https://kimeunh3.github.io/](https://kimeunh3.github.io/)

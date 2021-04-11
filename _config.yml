@@ -20,7 +20,7 @@ title                    : "Dev.Euneng()"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Eunhye Kim"
-description              : "All progress takes place outside the comfort zone."
+description              : "All progress takes place<br>outside the comfort zone."
 url                      : "https://kimeunh3.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kimeunh3/kimeunh3.github.io"
@@ -97,8 +97,8 @@ author:
   name             : "Eunhye Kim"
   avatar           : "/assets/images/romie.jpg"
   bio              : "All progress takes place outside the comfort zone."
-  location         : "Incheon, Republic of Korea"
-  email            : "eunhyekim1223@gmail.com"
+  location         : "Incheon, South Korea"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
