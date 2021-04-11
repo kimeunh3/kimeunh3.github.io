@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "custom" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko"
+locale                   : "en-US"
 title                    : "Dev.Euneng()"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "으넹"
-description              : "개발자로써 공부하는 내용을 기록하고 있습니다!"
+name                     : "Eunhye Kim"
+description              : "All progress takes place outside the comfort zone."
 url                      : "https://kimeunh3.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kimeunh3/kimeunh3.github.io"
@@ -94,15 +94,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "으넹"
+  name             : "Eunhye Kim"
   avatar           : "/assets/images/romie.jpg"
-  bio              : "Michigan State Univ.<br>Class of 2020<br>B.S. in Computer Sci."
+  bio              : "All progress takes place outside the comfort zone."
   location         : "Incheon, Republic of Korea"
   email            : "eunhyekim1223@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:eunhyekim1223@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -114,7 +114,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/kimeunh3"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -130,7 +130,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/kimeunh3"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -247,16 +247,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -280,3 +280,11 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
