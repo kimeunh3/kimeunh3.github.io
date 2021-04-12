@@ -60,7 +60,7 @@ coverType = [[[0, 0], [0, 1], [1, 0]],  # (a)
             [[0, 0], [1, 0], [1, 1]],   # (c)
             [[0, 0], [1, -1], [1, 0]]]  # (d)
 ```
-![](https://user-images.githubusercontent.com/59808674/114264322-1b743480-9a25-11eb-9b25-06e7bf732081.jpg)
+![BOARDCOVER](https://user-images.githubusercontent.com/59808674/114347446-eb9d6c00-9b9f-11eb-973f-f489b20e80b4.png)
 ```python
 """
 board의 (y, x)를 block_type번 방법으로 덮거나, 
