@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Eunhye Kim"
   avatar           : "/assets/images/romie.jpg"
-  bio              : "All progress takes place outside the comfort zone."
+  bio              : "All progress takes place<br>outside the comfort zone."
   location         : "Incheon, South Korea"
   email            : 
   links:
@@ -280,6 +280,7 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
   # _pages
   - scope:
       path: "_pages"

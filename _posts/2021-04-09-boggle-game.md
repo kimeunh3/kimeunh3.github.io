@@ -6,11 +6,14 @@ categories:
 tags: 
     - "recursion"
     - "brute force"
+toc: true
 ---
 
 
 
 출처: [Algospot 온라인 저지](https://algospot.com/judge/problem/read/BOGGLE)
+
+## 문제
 
 ![](http://algospot.com/media/judge-attachments/09ee7a6e752f07b0d99b82a010938ab4/boggle.png)
 
@@ -22,6 +25,7 @@ tags:
 
 > **Note:** 지금부터 작성하는 솔루션은 재귀함수와 완전탐색만을 사용하여 풀은 솔루션입니다.
 
+## 풀이
 ```python
 board = [["U", "R", "L", "P", "M"], 
         ["X", "P", "R", "E", "T"], 
