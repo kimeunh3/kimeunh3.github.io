@@ -17,17 +17,19 @@ table {
 }
 
 thead {
-  background-color: $border-color;
+  background-color: #b0b0d4;
   border-bottom: 2px solid mix(#000, $border-color, 25%);
 }
 
 th {
+  color: #fff;
   padding: 0.5em;
   font-weight: bold;
   text-align: left;
 }
 
 td {
+  color: #37375c;
   padding: 0.5em;
   border-bottom: 1px solid mix(#000, $border-color, 25%);
 }
