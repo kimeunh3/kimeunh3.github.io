@@ -49,5 +49,5 @@ def merge(A1, A2, A):
             j += 1
 ```  
 
-## 동작 과정
-
+## 동작 과정  
+![merge-sort-execution](https://user-images.githubusercontent.com/59808674/117253367-1cf91700-ae82-11eb-9e40-e656747e4925.png)  
