@@ -319,7 +319,7 @@
 
 .sidebar .views {
   width: 70%;
-  @include breakpoint($large) {
+  @include breakpoint($x-large) {
     width: 70%;
   }
 
