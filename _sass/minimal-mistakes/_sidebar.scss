@@ -317,6 +317,14 @@
   }
 }
 
+.sidebar .views {
+  width: 70%;
+  @include breakpoint($large) {
+    width: 70%;
+  }
+
+}
+
 /*
    Wide Pages
    ========================================================================== */
@@ -343,4 +351,3 @@
     margin-right: initial;
   }
 }
-
