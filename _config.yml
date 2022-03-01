@@ -64,10 +64,10 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "AjqEu4IomdpT-2n4sZBJqbRdAS1DNvljl3aRVK-L7Dw"
 bing_site_verification   :
 yandex_site_verification :
-naver_site_verification  :
+naver_site_verification  : "6e6f9a1501dadfa60cc62e9b9e924886e2073f31"
 
 # Social Sharing
 twitter:
@@ -86,9 +86,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag"  # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-1GSZV61H2B"
     anonymize_ip         : # true, false (default)
 
 

@@ -50,6 +50,11 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
+        <div style="width: 75%; margin-top: 15px;">   
+          <a href="https://hits.seeyoufarm.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}" target="_blank">
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%2337375C&title_bg=%2362497A&icon=baidu.svg&icon_color=%23FFFFFF&title=Views+&edge_flat=false"/>
+          </a>
+        </div>
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
