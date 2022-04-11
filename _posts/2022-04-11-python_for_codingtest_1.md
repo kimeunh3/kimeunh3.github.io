@@ -11,7 +11,7 @@ use_math: true
 ## 출처
 
 - 이 포스팅은 아래의 강좌를 진행하며 정리한 글입니다.
-  > [(이코테 2021 강의 몰아보기) 2. 그리디 & 구현](https://www.youtube.com/watch?v=2zjoKjt97vQ&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC&index=2)
+  > [(이코테 2021 강의 몰아보기) 2. 그리디 & 구현](https://youtu.be/2zjoKjt97vQ?list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
 
 ## 그리디 알고리즘
 
