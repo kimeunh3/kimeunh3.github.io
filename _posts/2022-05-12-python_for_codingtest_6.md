@@ -11,7 +11,7 @@ use_math: true
 ## 출처
 
 - 이 포스팅은 아래의 강좌를 진행하며 정리한 글입니다.
-  > [(이코테 2021 강의 몰아보기) 2. 이진 탐색](https://youtu.be/94RC-DsGMLo?list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
+  > [(이코테 2021 강의 몰아보기) 5. 이진 탐색](https://youtu.be/94RC-DsGMLo?list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
 
 ## 이진 탐색
 
