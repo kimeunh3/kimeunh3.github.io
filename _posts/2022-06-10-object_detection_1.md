@@ -2,7 +2,7 @@
 title: '[딥러닝] 객체 검출(Object Detection) 딥러닝 기술'
 excerpt_separator: <!--more-->
 categories:
-  - 'Python for Coding Test'
+  - 'Object Detection'
 tags:
   - 'deep learning'
   - 'object detection'
