@@ -30,7 +30,7 @@ use_math: true
 ### R-CNN의 한계점
 
 - 입력 이미지에 대해 CPU 기반의 Selective Search를 진행하여 속도가 느림
-- 전체 architecture에서 SVM, Regressor 모듈이 CNN과 분리되어 있음;
+- 전체 architecture에서 SVM, Regressor 모듈이 CNN과 분리되어 있음
   - CNN이 고정 되어 있어 SVM과 Bounding Box Regression 결과로 CNN를 업데이트 불가능
   - end-to-end 방식 학습이 불가능
 - 모든 RoI를 CNN에 넣어야해서 2,000번의 CNN 연산이 필요
