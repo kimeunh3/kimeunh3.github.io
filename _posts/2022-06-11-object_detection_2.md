@@ -25,9 +25,10 @@ use_math: true
 2. **Crop & Resize:** 각 RoI에 대하여 warping을 수행; 동일한 크기의 입력 이미지로 변경
 3. **CNN:** Crop & Resize 과정을 거친 이미지를 CNN에 넣고(forward) 이미지 feature vector를 추출
 4. **SVMs and Regressors:** SVM으로 Classification을, Regressor로 정확한 물체의 위치의 bounding box를 조절하여 예측
-    - 여러 개의 클래스가 존재하는 상황에서 각각의 클래스에 대해 독립적으로 훈련된 이진(binary) SVM을 사용
-    
+    - 여러 개의 클래스가 존재하는 상황에서 각각의 클래스에 대해 독립적으로 훈련된 이진(binary) SVM을 사용  
+
 ### R-CNN의 한계점
+
 - 입력 이미지에 대해 CPU 기반의 Selective Search를 진행하여 속도가 느림
 - 전체 architecture에서 SVM, Regressor 모듈이 CNN과 분리되어 있음;
   - CNN이 고정 되어 있어 SVM과 Bounding Box Regression 결과로 CNN를 업데이트 불가능
