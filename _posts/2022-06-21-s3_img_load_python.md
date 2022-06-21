@@ -29,6 +29,7 @@ $ pip install pillow
 ```
 
 os는 python 설치 시 포함되어 있기 때문에 따로 설치가 필요없다!
+
 dotenv는 AWS의 개인적인 정보를 따로 환경변수로 담아두고 불러와 쓰기 위해 사용된다. access key id나 secret access key와 같이 외부에 알려지게 되면 곤란한 정보들은 .env에 모아놓고 .gitignore에 .env를 추가하고 repo에 올리지 않도록 주의하자!
 
 ## 코드
