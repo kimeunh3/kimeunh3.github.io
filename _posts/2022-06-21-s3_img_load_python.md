@@ -1,5 +1,5 @@
 ---
-title: '[Python] AWS S3에서 이미지 로드하기 '
+title: '[Python] AWS S3에서 이미지 로드하기'
 excerpt_separator: <!--more-->
 categories:
   - 'Python'
